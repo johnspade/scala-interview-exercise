@@ -1,13 +1,16 @@
-# sbt
+# sbt & Bloop
 target/
 project/target/
 project/project/
+.bloop/
+project/.bloop/
 
-# IDE
+# IDE / Metals
 .idea/
 .bsp/
 .metals/
 .vscode/
+project/metals.sbt
 
 # OS
 .DS_Store
