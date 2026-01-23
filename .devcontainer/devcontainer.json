@@ -1,14 +1,18 @@
 {
     "name": "Scala",
-    "build": {
-        "dockerfile": "Dockerfile"
+    "image": "mcr.microsoft.com/devcontainers/base:trixie",
+    "features": {
+        "ghcr.io/devcontainers-extra/features/sbt-sdkman:2.0.16": {
+            "version": "latest",
+            "jdkVersion": "17",
+            "jdkDistro": "tem"
+        }
     },
     "customizations": {
         "vscode": {
             "extensions": [
                 "scalameta.metals",
-                "scala-lang.scala",
-                "-vscjava.vscode-java-pack"
+                "scala-lang.scala"
             ]
         }
     },
