@@ -7,7 +7,8 @@
         "vscode": {
             "extensions": [
                 "scalameta.metals",
-                "scala-lang.scala"
+                "scala-lang.scala",
+                "-vscjava.vscode-java-pack"
             ]
         }
     },
